@@ -44,6 +44,17 @@ body {
 }
 .profile-container {
    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.profile-text-container {
+    margin: 0px 20px;
+}
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .sidebar {
