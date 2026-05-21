@@ -17,13 +17,13 @@ body {
     padding: 0 50px;
     height: 100%;
     color: white;
+    font-family: 'Sen', sans-serif;
 }
 
 .logo-container {
     flex: 1;
 }
 .logo {
-    font-family: 'Sen', sans-serif;
     font-size: 30px;
     color: rgb(163, 65, 255);
 }
@@ -31,7 +31,17 @@ body {
 .menu-container {
     flex: 6;
 }
-
+.menu-list {
+    display: flex;
+    list-style-type: none;
+}
+.menu-list-item {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.menu-list-item.active {
+    font-weight: bold;
+}
 .profile-container {
    flex: 2;
 }
