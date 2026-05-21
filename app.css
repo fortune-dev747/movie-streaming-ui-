@@ -11,3 +11,30 @@ body {
     height: 50px;
     background-color: black;
 }
+.navbar-container {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 0 50px;
+    height: 100%;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.menu-container {
+    flex: 1;
+}
+
+.profile-container {
+   flex: 1;;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
