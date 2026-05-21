@@ -14,27 +14,26 @@ body {
 .navbar-container {
     display: flex;
     align-items: center;
-    background-color: blanchedalmond;
     padding: 0 50px;
     height: 100%;
+    color: white;
 }
 
 .logo-container {
     flex: 1;
-    background-color: green;
 }
 .logo {
     font-family: 'Sen', sans-serif;
+    font-size: 30px;
+    color: rgb(163, 65, 255);
 }
 
 .menu-container {
     flex: 6;
-    background-color: red;
 }
 
 .profile-container {
    flex: 2;
-   background-color: blue;
 }
 
 .sidebar {
