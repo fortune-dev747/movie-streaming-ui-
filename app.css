@@ -98,3 +98,18 @@ body {
     margin-bottom: 40px;
     cursor: pointer;
 }
+
+.container {
+    background-color: #151515;
+    height: calc(100vh - 50px);
+    color: white;
+}
+
+.content-container {
+    margin-left: 50px;
+}
+
+.featured-content {
+    height: 50vh;
+    background-color: tomato;
+}
