@@ -111,5 +111,7 @@ body {
 
 .featured-content {
     height: 50vh;
-    background-color: red;
+}
+.featured-title{
+    width: 600px;
 }
