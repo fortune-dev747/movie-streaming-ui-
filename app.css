@@ -151,6 +151,7 @@ body {
 
 .movie-list-item .movie-list-item-img:hover {
     transform: scale(1.2);
+    margin: 0 30px;
 }
 .movie-list-item-img {
     width: 270px;
