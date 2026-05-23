@@ -230,32 +230,32 @@ body {
 }
 
 /* Dark Mode*/
-.container{
+.container.active{
     background-color: white;
 }
 
-.movie-list-title {
+.movie-list-title.active {
     color: black;
 }
 
-.navbar-container{
+.navbar-container.active{
     color: black;
     background-color: white;
 }
 
-.sidebar {
+.sidebar.active {
     background-color: white;
 }
 
-.sidebar-menu-icon {
+.sidebar-menu-icon.active {
     color: black;
 }
 
-.toggle {
+.toggle.active {
     background-color: black;
 }
 
-.toggle-ball {
+.toggle-ball.active {
     background-color: white;
     transform: translateX(-20px);
 }
