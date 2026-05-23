@@ -3,6 +3,6 @@ const movieLists = document.querySelectorAll(".movie-list");
 
 arrows.forEach((arrow, index) => {
     arrow.addEventListener("click", () => {
-        movieLists[index].style.transform = "translateX(-100px)";
+        movieLists[index].style.transform = `translateX(${movieLists[index].computedStyleMap().get("transform")[0].x.value-300}px)`;
     })
 })
