@@ -228,3 +228,34 @@ body {
     cursor: pointer;
     opacity: .7;
 }
+
+/* Dark Mode*/
+.container{
+    background-color: white;
+}
+
+.movie-list-title {
+    color: black;
+}
+
+.navbar-container{
+    color: black;
+    background-color: white;
+}
+
+.sidebar {
+    background-color: white;
+}
+
+.sidebar-menu-icon {
+    color: black;
+}
+
+.toggle {
+    background-color: black;
+}
+
+.toggle-ball {
+    background-color: white;
+    transform: translateX(-20px);
+}
