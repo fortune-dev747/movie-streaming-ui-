@@ -147,9 +147,10 @@ body {
 
 .movie-list-item{
     margin-right: 30px;
+    position: relative;
 }
 
-.movie-list-item .movie-list-item-img:hover {
+.movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
 }
@@ -157,5 +158,16 @@ body {
     width: 270px;
     height: 200px;
     object-fit: cover;
-     transition: all 1s ease;
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-item-title {
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 50px;
 }
