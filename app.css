@@ -140,6 +140,10 @@ body {
     padding: 20px;
 }
 
+.movie-list-wrapper {
+    position: relative;
+}
+
 .movie-list {
     display: flex;
     align-items: center;
@@ -209,4 +213,14 @@ body {
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
+}
+
+.arrow {
+    font-size: 120px;
+    top: 90px;
+    left: 93%;
+    position: absolute;
+    color: lightgray;
+    cursor: pointer;
+    opacity: .7;
 }
