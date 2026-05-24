@@ -231,6 +231,7 @@ body {
 /* Dark Mode*/
 .container.active{
     background-color: white;
+    color: black;
 }
 
 .movie-list-title.active {
