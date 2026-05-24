@@ -273,3 +273,11 @@ body {
       font-size: 20px;
    }
 }
+/* extra personal tweaks */
+.terminator {
+  bottom: 0px;
+}
+
+.last-movie {
+    left: 3px;
+}
