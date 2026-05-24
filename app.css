@@ -134,6 +134,11 @@ body {
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+
+}
+.featured-button:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
 }
 
 .movie-list-container {
@@ -321,4 +326,11 @@ body {
 
 .last-movie {
     left: 3px;
+}
+/* Footer */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: blueviolet;
 }
