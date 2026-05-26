@@ -112,11 +112,14 @@ body {
 .featured-content {
     height: 50vh;
     padding: 50px;
- 
 }
 #next-transition {
     display: none;
 }
+#twilight-transition {
+    display: none;
+}
+
 .featured-title{
     width: 300px;
 

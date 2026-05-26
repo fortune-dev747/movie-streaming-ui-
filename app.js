@@ -1,24 +1,3 @@
-// Transition for the featured contents
-const nextTransition = document.getElementById("next-transition");
-const first = document.getElementById("first");
-
-function minionTransition() {
-    first.style.display = "block";
-    nextTransition.style.display = "none";
-}
-function sonicTransition() {
-    first.style.display = "none";
-    nextTransition.style.display = "block";
-}
-
-setInterval(minionTransition, 5000);
-setInterval(sonicTransition, 10000);
-
-
-
-
-
-
 
 // slider
 const arrows = document.querySelectorAll(".arrow");
