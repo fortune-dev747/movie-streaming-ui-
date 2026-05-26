@@ -112,8 +112,8 @@ body {
 .featured-content {
     height: 50vh;
     padding: 50px;
+    background-size: 100% 100%; 
 }
-
 .featured-title{
     width: 300px;
 
