@@ -303,6 +303,12 @@ body {
       color: black;
       font-size: 12px;
    }
+   #featured-desc2 {
+      width: 200px;
+      margin: 30px 0px;
+     color: white;
+     font-size: 12px;
+    }
 }
 @media only screen and (max-width: 415px) {
     .menu-container {
@@ -318,6 +324,12 @@ body {
       color: black;
       font-size: 12px;
    }
+    #featured-desc2 {
+      width: 200px;
+      margin: 30px 0px;
+     color: white;
+     font-size: 12px;
+    }
 }
 /* Tablet */ /* Laptop */
 @media only screen and (max-width: 940px) {
@@ -333,6 +345,12 @@ body {
       color: black;
       font-size: 20px;
    }
+   #featured-desc2 {
+      width: 300px;
+      margin: 30px 0px;
+     color: white;
+     font-size: 20px;
+    }
 }
 /* extra personal tweaks */
 .terminator {
