@@ -19,4 +19,4 @@ function nextSlide() {
 showSlide(0);
 
 // Cycle every 5 seconds
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 8000);
