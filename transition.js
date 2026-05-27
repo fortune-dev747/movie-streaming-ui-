@@ -1,6 +1,6 @@
 const first = document.getElementById("first");
-const nextTransition = document.getElementById("next-transition");
-const twilightTransition = document.getElementById("twilight-transition");
+const nextTransition = document.getElementById("second");
+const twilightTransition = document.getElementById("third");
 
 const slides = [first, nextTransition, twilightTransition];
 let currentIndex = 0;
@@ -18,5 +18,5 @@ function nextSlide() {
 // Show the first slide immediately
 showSlide(0);
 
-// Cycle every 5 seconds
+// Cycle every 8 seconds
 setInterval(nextSlide, 8000);
