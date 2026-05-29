@@ -33,6 +33,7 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    display: none;
 }
 
 
@@ -330,6 +331,9 @@ body {
     }
     .menu-container {
         display: none;
+    }
+    .nav-toggle {
+        display: block;
     }
     .profile-text-container {
         margin: 0px 8px;
