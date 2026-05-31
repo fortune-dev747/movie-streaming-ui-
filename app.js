@@ -1,6 +1,6 @@
 
 // slider
-const arrows = document.querySelectorAll(".arrow");
+const arrows = document.querySelectorAll(".right");
 const movieLists = document.querySelectorAll(".movie-list");
 
 arrows.forEach((arrow, index) => {

@@ -282,10 +282,19 @@ body {
     transition: 1s all ease-in-out;
 }
 
-.arrow {
+.right {
     font-size: 120px;
     top: 90px;
     right: 0px;
+    position: absolute;
+    color: lightgray;
+    cursor: pointer;
+    opacity: .7;
+}
+.left {
+   font-size: 110px;
+    top: 90px;
+    left: -30px;
     position: absolute;
     color: lightgray;
     cursor: pointer;
