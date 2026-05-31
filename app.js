@@ -21,7 +21,7 @@ arrows.forEach((arrow, index) => {
 // Dark Mode
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
-    ".container,.movie-list-title,.navbar-container,.sidebar,.sidebar-menu-icon,.left-menu-icon,.toggle"
+    ".container,.movie-list-title,.navbar-container,.sidebar,.sidebar-menu-icon,.left-menu-icon,.toggle,.nav-toggle,.mobile-menu-list-item"
 );
 ball.addEventListener("click", () => {
     items.forEach(item => {
@@ -31,3 +31,8 @@ ball.addEventListener("click", () => {
 });
 
 // Mobile Menu Toggle
+const menuToggle = document.querySelector(".nav-toggle");
+const mobileMenu = document.querySelector(".mobile-menu-container");
+menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+});
