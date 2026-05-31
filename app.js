@@ -1,21 +1,32 @@
 
-// slider
-const arrows = document.querySelectorAll(".right");
+const rightArrows = document.querySelectorAll(".right");
+const leftArrows = document.querySelectorAll(".left");
 const movieLists = document.querySelectorAll(".movie-list");
 
-arrows.forEach((arrow, index) => {
+const clickCounters = Array(movieLists.length).fill(0);
+
+rightArrows.forEach((arrow, index) => {
     const itemNumber = movieLists[index].querySelectorAll("img").length;
-    let clickCounter = 0;
     arrow.addEventListener("click", () => {
         const ratio = Math.floor(window.innerWidth / 270);
-        clickCounter++;
-        if(itemNumber - (5 + clickCounter) + (5 - ratio) >= 0) {
-            movieLists[index].style.transform = `translateX(${movieLists[index].computedStyleMap().get("transform")[0].x.value-300}px)`;
+        clickCounters[index]++;
+        if (itemNumber - (5 + clickCounters[index]) + (5 - ratio) >= 0) {
+            movieLists[index].style.transform = `translateX(${movieLists[index].computedStyleMap().get("transform")[0].x.value - 300}px)`;
         } else {
-           movieLists[index].style.transform = "translateX(0)";
-           clickCounter = 0;
+            movieLists[index].style.transform = "translateX(0)";
+            clickCounters[index] = 0;
         }
-    })
+    });
+});
+
+leftArrows.forEach((arrow, index) => {
+    arrow.addEventListener("click", () => {
+        const currentX = movieLists[index].computedStyleMap().get("transform")[0].x.value;
+        if (currentX < 0) {
+            movieLists[index].style.transform = `translateX(${currentX + 300}px)`;
+            clickCounters[index]--;
+        }
+    });
 });
 
 // Dark Mode
