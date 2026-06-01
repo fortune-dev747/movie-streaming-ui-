@@ -283,18 +283,18 @@ body {
 }
 
 .right {
-    font-size: 120px;
+    font-size: 80px;
     top: 90px;
-    right: 0px;
+    right: 40px;
     position: absolute;
     color: lightgray;
     cursor: pointer;
     opacity: .7;
 }
 .left {
-   font-size: 110px;
+   font-size: 80px;
     top: 90px;
-    left: -30px;
+    left: -20px;
     position: absolute;
     color: lightgray;
     cursor: pointer;

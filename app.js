@@ -1,4 +1,4 @@
-
+// Arrow Sliders
 const rightArrows = document.querySelectorAll(".right");
 const leftArrows = document.querySelectorAll(".left");
 const movieLists = document.querySelectorAll(".movie-list");
