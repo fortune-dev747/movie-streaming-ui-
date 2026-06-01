@@ -226,7 +226,7 @@ body {
 .movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
     margin: 0 30px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .movie-list-item:hover .movie-list-item-title,
 .movie-list-item:hover .movie-list-item-desc,
@@ -502,6 +502,7 @@ body {
      color: white;
      font-size: 20px;
     }
+
 }
 /* extra personal tweaks */
 .terminator {
