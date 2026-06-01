@@ -283,18 +283,18 @@ body {
 }
 
 .right {
-    font-size: 80px;
+    font-size: 120px;
     top: 90px;
-    right: 40px;
+    right: 0px;
     position: absolute;
     color: lightgray;
     cursor: pointer;
     opacity: .7;
 }
 .left {
-   font-size: 80px;
+   font-size: 110px;
     top: 90px;
-    left: -20px;
+    left: -30px;
     position: absolute;
     color: lightgray;
     cursor: pointer;
@@ -370,6 +370,24 @@ body {
      color: white;
      font-size: 12px;
     }
+    .right {
+        font-size: 80px;
+        top: 90px;
+        right: 40px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
+    }
+    .left {
+     font-size: 80px;
+        top: 90px;
+        left: -20px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
+    }
 }
 @media only screen and (max-width: 600px) {
     .navbar-container {
@@ -443,6 +461,24 @@ body {
      font-weight: bold;
      font-size: 14px;
      cursor: pointer;
+    }
+    .right {
+        font-size: 80px;
+        top: 90px;
+        right: 40px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
+    }
+    .left {
+     font-size: 80px;
+        top: 90px;
+        left: -20px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
     }
 }
 /* Tablet */ /* Laptop */
