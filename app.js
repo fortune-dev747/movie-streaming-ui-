@@ -4,6 +4,7 @@ const leftArrows = document.querySelectorAll(".left");
 const movieLists = document.querySelectorAll(".movie-list");
 
 const clickCounters = Array(movieLists.length).fill(0);
+const currentPositions = Array(movieLists.length).fill(0); // track position manually
 
 rightArrows.forEach((arrow, index) => {
     const itemNumber = movieLists[index].querySelectorAll("img").length;
@@ -11,8 +12,10 @@ rightArrows.forEach((arrow, index) => {
         const ratio = Math.floor(window.innerWidth / 270);
         clickCounters[index]++;
         if (itemNumber - (5 + clickCounters[index]) + (5 - ratio) >= 0) {
-            movieLists[index].style.transform = `translateX(${movieLists[index].computedStyleMap().get("transform")[0].x.value - 300}px)`;
+            currentPositions[index] -= 300;
+            movieLists[index].style.transform = `translateX(${currentPositions[index]}px)`;
         } else {
+            currentPositions[index] = 0;
             movieLists[index].style.transform = "translateX(0)";
             clickCounters[index] = 0;
         }
@@ -21,9 +24,9 @@ rightArrows.forEach((arrow, index) => {
 
 leftArrows.forEach((arrow, index) => {
     arrow.addEventListener("click", () => {
-        const currentX = movieLists[index].computedStyleMap().get("transform")[0].x.value;
-        if (currentX < 0) {
-            movieLists[index].style.transform = `translateX(${currentX + 300}px)`;
+        if (currentPositions[index] < 0) {
+            currentPositions[index] += 300;
+            movieLists[index].style.transform = `translateX(${currentPositions[index]}px)`;
             clickCounters[index]--;
         }
     });
