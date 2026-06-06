@@ -254,6 +254,7 @@ body {
 }
 
 .movie-list-item-desc {
+    font-weight:500;
     padding: 10px;
     font-size: 12px;
     cursor: pointer;
