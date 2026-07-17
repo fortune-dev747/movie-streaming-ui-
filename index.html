@@ -116,7 +116,7 @@
                          <div class="movie-list-item">
                             <img class="movie-list-item-img" src="IMG/tasm-2.jpg" alt="">
                             <span class="movie-list-item-title">The Amazing Spiderman 2</span>
-                            <p class="movie-list-item-desc">The Amazing Spiderman 2 follows Peter Parker as he struggles to balance his love life, his responsibilities as Spider-Man, and battles dangerous villains including Electro and Harry Osborn while uncovering secrets about his parents.</p>
+                            <p class="movie-list-item-desc">The Amazing Spiderman 2 follows Peter Parker as he struggles to balance his love life, his responsibilities as Spider-Man.</p>
                             <button class="movie-list-item-button">Watch</button>
                         </div>
                             <div class="movie-list-item">
@@ -128,7 +128,7 @@
                          <div class="movie-list-item">
                             <img class="movie-list-item-img" src="IMG/ready-player-one.webp" alt="">
                             <span class="movie-list-item-title">Ready Player One</span>
-                            <p class="movie-list-item-desc">In 2045, Wade Watts navigates a dystopian world and a vast virtual reality called the OASIS to find a hidden Easter egg that grants immense wealth and control of the OASIS.</p>
+                            <p class="movie-list-item-desc">In 2045, Wade Watts navigates a dystopian world and a vast virtual reality called the OASIS to find a hidden Easter egg.</p>
                             <button class="movie-list-item-button">Watch</button>
                         </div>
                     </div>
@@ -320,3 +320,360 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+/* ============================================
+   4K SCREENS (1920px AND ABOVE)
+   ============================================ */
+@media only screen and (min-width: 1920px) {
+    /* Base scaling for 4K */
+    body {
+        font-size: 20px;
+    }
+    
+    /* Navbar - larger */
+    .navbar {
+        height: 80px;
+    }
+    
+    .navbar-container {
+        padding: 0 100px;
+    }
+    
+    .logo {
+        font-size: 48px;
+    }
+    
+    .menu-list-item {
+        margin-right: 50px;
+        font-size: 24px;
+    }
+    
+    .profile-text-container {
+        margin: 0px 30px;
+        font-size: 22px;
+    }
+    
+    .profile-picture {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .toggle {
+        width: 60px;
+        height: 30px;
+    }
+    
+    .toggle-ball {
+        width: 26px;
+        height: 26px;
+    }
+    
+    /* Sidebar - larger */
+    .sidebar {
+        width: 80px;
+        padding-top: 100px;
+    }
+    
+    .sidebar-menu-icon {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+    
+    .content-container {
+        margin-left: 80px;
+    }
+    
+    /* Featured content - 4K optimized */
+    .featured-content {
+        height: 60vh;
+        padding: 80px 100px;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    
+    .featured-title {
+        width: 500px;
+    }
+    
+    .featured-desc {
+        width: 700px;
+        font-size: 32px;
+        margin: 40px 0px;
+        line-height: 1.6;
+    }
+    
+    #featured-desc2 {
+        width: 700px;
+        font-size: 32px;
+        margin: 40px 0px;
+        line-height: 1.6;
+    }
+    
+    .featured-button {
+        padding: 18px 40px;
+        font-size: 28px;
+        border-radius: 16px;
+    }
+    
+    /* Movie list - 4K scaling */
+    .movie-list-title {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    
+    .movie-list-container {
+        padding: 0 40px;
+    }
+    
+    .movie-list-item-img {
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    
+    .movie-list {
+        height: 420px;
+    }
+    
+    .movie-list-item {
+        margin-right: 50px;
+    }
+    
+    .movie-list-item-title {
+        font-size: 32px;
+        left: 60px;
+        top: 8%;
+    }
+    
+    .movie-list-item-desc {
+        font-size: 18px;
+        left: 60px;
+        width: 320px;
+        top: 28%;
+        line-height: 1.6;
+    }
+    
+    .movie-list-item-button {
+        font-size: 24px;
+        padding: 14px 28px;
+        left: 60px;
+        bottom: 20px;
+        border-radius: 14px;
+    }
+    
+    .movie-list-item:hover .movie-list-item-img {
+        transform: scale(1.2);
+        margin: 0 40px;
+    }
+    
+    /* Navigation arrows - 4K */
+    .right {
+        font-size: 140px;
+        top: 120px;
+        right: 20px;
+    }
+    
+    .left {
+        font-size: 140px;
+        top: 120px;
+        left: -40px;
+    }
+    
+    /* Mobile menu - 4K */
+    .mobile-menu-container {
+        top: 80px;
+    }
+    
+    .mobile-menu-list-item {
+        padding: 20px 40px;
+        font-size: 32px;
+    }
+    
+    /* Footer - 4K */
+    .footer {
+        font-size: 22px;
+        margin-top: 40px;
+        padding: 20px;
+    }
+}
+
+/* ============================================
+   ULTRA-WIDE 4K+ (2560px AND ABOVE)
+   ============================================ */
+@media only screen and (min-width: 2560px) {
+    body {
+        font-size: 24px;
+    }
+    
+    .navbar {
+        height: 100px;
+    }
+    
+    .navbar-container {
+        padding: 0 150px;
+    }
+    
+    .logo {
+        font-size: 56px;
+    }
+    
+    .menu-list-item {
+        margin-right: 70px;
+        font-size: 28px;
+    }
+    
+    .sidebar {
+        width: 100px;
+        padding-top: 120px;
+    }
+    
+    .sidebar-menu-icon {
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .content-container {
+        margin-left: 100px;
+    }
+    
+    .featured-content {
+        padding: 100px 150px;
+        height: 65vh;
+    }
+    
+    .featured-title {
+        width: 600px;
+    }
+    
+    .featured-desc {
+        width: 800px;
+        font-size: 36px;
+    }
+    
+    #featured-desc2 {
+        width: 800px;
+        font-size: 36px;
+    }
+    
+    .featured-button {
+        padding: 22px 50px;
+        font-size: 32px;
+    }
+    
+    .movie-list-item-img {
+        width: 500px;
+        height: 380px;
+    }
+    
+    .movie-list {
+        height: 500px;
+    }
+    
+    .movie-list-item-title {
+        font-size: 38px;
+        left: 80px;
+    }
+    
+    .movie-list-item-desc {
+        font-size: 22px;
+        left: 80px;
+        width: 400px;
+    }
+    
+    .movie-list-item-button {
+        font-size: 28px;
+        padding: 18px 36px;
+        left: 80px;
+    }
+    
+    .right {
+        font-size: 180px;
+        top: 150px;
+    }
+    
+    .left {
+        font-size: 180px;
+        top: 150px;
+        left: -50px;
+    }
+}
+
+/* ============================================
+   FIX: Tablet Media Query (601px - 767px was incorrect)
+   ============================================ */
+/* This replaces the broken @media only screen and (max-width: 601px) and (min-width: 940px) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .menu-container {
+        display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .featured-title {
+        width: 200px;
+    }
+    .featured-desc {
+        width: 280px;
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    #featured-desc2 {
+        width: 280px;
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+}
+
+/* ============================================
+   LARGE TABLET / SMALL LAPTOP (1025px - 1366px)
+   ============================================ */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    .featured-content {
+        height: 45vh;
+        padding: 40px;
+    }
+    
+    .featured-desc {
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    #featured-desc2 {
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .movie-list-item-img {
+        width: 220px;
+        height: 165px;
+    }
+    
+    .movie-list {
+        height: 245px;
+    }
+    
+    .movie-list-item-title {
+        font-size: 17px;
+        left: 35px;
+    }
+    
+    .movie-list-item-desc {
+        font-size: 11px;
+        left: 35px;
+        width: 180px;
+    }
+    
+    .movie-list-item-button {
+        font-size: 16px;
+        padding: 8px 16px;
+        left: 35px;
+    }
+}
+
+/* ============================================
+   FIX: Invalid media query - remove and replace
+   ============================================ */
+/* 
+   REMOVED: @media only screen and (max-width: 601px) and (min-width: 940px) 
+   This was invalid as max-width can't be less than min-width
+*/

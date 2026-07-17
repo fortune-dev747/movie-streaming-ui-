@@ -172,7 +172,7 @@ body {
 .featured-desc {
     width: 500px;
     margin: 30px 0px;
-    color: black;
+    color: white;
     font-size: 25px;
 }
 #featured-desc2 {
@@ -483,9 +483,50 @@ body {
     }
 }
 /* Tablet */ /* Laptop */
-@media only screen and (max-width: 601px) and (min-width: 940px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .navbar-container {
+        padding: 0 15px;
+    }
+    .logo {
+        margin-left: 16px;
+        font-size: 25px;
+    }
     .menu-container {
         display: none;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .profile-text-container {
+        margin: 0px 8px;
+    }
+    .sidebar {
+     width: 32px;
+     padding-top: 55px;
+   }
+ .sidebar-menu-icon {
+       color: white;
+     font-size: 13px;
+     margin-bottom: 25px;
+     cursor: pointer;
+   }
+
+    .content-container {
+        margin-left: 32px;
+    }
+
+    .featured-content {
+        background: linear-gradient(to bottom, rgba(0,0,0,0), #141414);
+        height: auto;
+        min-height: 52vw;
+        padding: 15px 12px;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    .twilight-own {
+        width: 250px;
+        margin-bottom: 0px;
+        margin-left: 0px;
     }
 
     .featured-title{
@@ -494,7 +535,7 @@ body {
     .featured-desc {
       width: 300px;
      margin: 30px 0px;
-      color: black;
+      color: white;
       font-size: 20px;
    }
    #featured-desc2 {
@@ -503,7 +544,35 @@ body {
      color: white;
      font-size: 20px;
     }
-
+    .featured-button {
+     background-color: #ff0000;
+     color: white;
+     padding: 8px 15px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     font-weight: bold;
+     font-size: 14px;
+     cursor: pointer;
+    }
+    .right {
+        font-size: 80px;
+        top: 90px;
+        right: 0px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
+    }
+    .left {
+     font-size: 80px;
+        top: 90px;
+        left: -20px;
+        position: absolute;
+        color: lightgray;
+        cursor: pointer;
+        opacity: .7;
+    }
 }
 /* extra personal tweaks */
 .terminator {
@@ -516,4 +585,165 @@ body {
     text-align: center;
     font-size: 14px;
     color: blueviolet;
+}
+
+@media (min-width: 2560px) {
+    
+    .navbar {
+        height: 100px;
+    }
+    
+    .navbar-container {
+        padding: 0 150px;
+    }
+    
+    .logo {
+        font-size: 56px;
+    }
+    
+    .menu-list-item {
+        margin-right: 70px;
+        font-size: 38px;
+    }
+
+    .profile-container {
+        font-size: 28px;
+    }
+    .toggle {
+        width: 80px;
+        height: 40px;
+    }
+    .toggle-ball {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .sidebar {
+        width: 100px;
+        padding-top: 120px;
+    }
+    
+    .sidebar-menu-icon {
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+    
+    .content-container {
+        margin-left: 100px;
+    }
+    
+    .featured-content {
+        height: 50vh;
+        padding: 80px;
+    }
+    
+    .featured-title {
+        width: 600px;
+    }
+    
+    .featured-desc {
+        width: 800px;
+        font-size: 40px;
+    }
+    
+    #featured-desc2 {
+        width: 800px;
+        font-size: 36px;
+    }
+    
+    .featured-button {
+        margin-top: 20px;
+        padding: 22px 50px;
+        font-size: 32px;
+    }
+    .movie-list-title {
+        margin-top: 60px;
+        font-size: 48px;
+    }
+    .movie-list-item-img {
+        width: 500px;
+        height: 380px;
+    }
+    
+    .movie-list {
+        height: 500px;
+    }
+    
+    .movie-list-item-title {
+        font-size: 38px;
+        left: 80px;
+    }
+    
+    .movie-list-item-desc {
+        font-size: 22px;
+        left: 80px;
+        width: 400px;
+    }
+    
+    .movie-list-item-button {
+        font-size: 28px;
+        padding: 18px 36px;
+        left: 80px;
+    }
+    
+    .right {
+        font-size: 180px;
+        top: 150px;
+    }
+    
+    .left {
+        font-size: 180px;
+        top: 150px;
+        left: -50px;
+    }
+    .footer {
+        font-size: 34px;
+    }
+}
+
+
+/* 
+   LARGE TABLET / SMALL LAPTOP (1025px - 1366px)
+ */
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    .featured-content {
+        height: 45vh;
+        padding: 40px;
+    }
+    
+    .featured-desc {
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    #featured-desc2 {
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .movie-list-item-img {
+        width: 220px;
+        height: 165px;
+    }
+    
+    .movie-list {
+        height: 245px;
+    }
+    
+    .movie-list-item-title {
+        font-size: 17px;
+        left: 35px;
+    }
+    
+    .movie-list-item-desc {
+        font-size: 11px;
+        left: 35px;
+        width: 180px;
+    }
+    
+    .movie-list-item-button {
+        font-size: 16px;
+        padding: 8px 16px;
+        left: 35px;
+    }
 }
